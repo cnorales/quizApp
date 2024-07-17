@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  background-color: #606470;
+  padding: 0;
+}
+
+/* body {
+  font-family: 'Poppins';
+  background-color: #93deff;
+} */
+
+.project {
+  font-family: 'Poppins';
+  width: 800px;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+  background: #93deff;
+}
+
+.container {
+  font-family: 'Poppins';
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+  background-color: #93deff;
+}
+
+.container h1 {
+  background-color: #93deff;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.container h2 {
+  background-color: #93deff;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.container .options {
+  background-color: #93deff;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.project button {
+  margin: auto;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background: #f7f7f7;
+  border-color: #f7f7f7;
+  color: #323643;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex; 
+  justify-content: center; 
+}
+
+.project .text {
+  background-color: #93deff;
+}
+
+.container .buttons {
+  background-color: #93deff;
+  display: flex;
+  flex-direction: row;
+}
+
+.project .index {
+  margin: auto;
+  background-color: #93deff;
+  font-size: 20px;
+}
+
+.container .green-button {
+  background-color: #93deff;
+  background: #dffff2;
+  border-color: #00d397;
+}
+
+.container .red-button {
+  background-color: #93deff;
+  background: #ffebeb;
+  border-color: #ff4a4a;
+}
